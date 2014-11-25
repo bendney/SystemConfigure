@@ -1,4 +1,4 @@
-vimconfig
-=========
+Archlinux configuration
+===========================================================
 
-vim configuration for personal
+Archlinux configuration for personal users
