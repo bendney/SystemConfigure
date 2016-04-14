@@ -1,7 +1,7 @@
-" bendney's vim configuration's files
+" Own vim configuration's files
 "
-" Maintainer:	Bendney Yu <bendney@gmail.com> 
-" Last change:	2013 Sep 17
+" Maintainer:			Bendney Yu <bendney@gmail.com> 
+" Last modification:	4.14.2016
 "
 " To use it, copy it to ~/.vimrc when using unix-likes system
 
@@ -22,6 +22,9 @@ set tabstop=4
 " set global shiftwidth softtabstop when edit source files
 set shiftwidth=4
 set softtabstop=4
+
+" set vim airline configuration
+set laststatus=2
 
 " set snippet syntax plugin on
 :filetype plugin on
