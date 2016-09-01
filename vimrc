@@ -18,13 +18,17 @@ set nocompatible
 set backspace=indent,eol,start
 
 " set tabstop width, it's auto-apply to current files
-set tabstop=4
+set tabstop=2
 " set global shiftwidth softtabstop when edit source files
-set shiftwidth=4
-set softtabstop=4
+set shiftwidth=2
+set softtabstop=0 expandtab
+
+set viminfo='50,<1000,s1000
 
 " set vim airline configuration
 set laststatus=2
+
+colorscheme default
 
 " set snippet syntax plugin on
 :filetype plugin on
@@ -34,10 +38,11 @@ if has("vms")
 else
   set nobackup		" do not keep a backup file, bendney has changed it
 endif
+
 set history=50		" keep 50 lines of command line history
-set ruler		" show the cursor position all the time
-set showcmd		" display incomplete commands
-set incsearch		" do incremental searching
+set ruler         " show the cursor position all the time
+set showcmd       " display incomplete commands
+set incsearch     " do incremental searching
 
 " For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries
 " let &guioptions = substitute(&guioptions, "t", "", "g")
