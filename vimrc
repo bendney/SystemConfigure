@@ -115,6 +115,13 @@ else
 
 endif " has("autocmd")
 
+call plug#begin()
+
+Plug 'vim-airline/vim-airline'
+Plug 'msanders/snipmate.vim'
+
+call plug#end()
+
 " Convenient command to see the difference between the current buffer and the
 " file it was loaded from, thus the changes you made.
 " Only define it when not defined already.
