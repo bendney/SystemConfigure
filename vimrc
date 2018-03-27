@@ -1,7 +1,7 @@
 " Own vim configuration's files
 "
 " Maintainer:			Bendney Yu <bendney@gmail.com> 
-" Last modification:	4.14.2016
+" Last modification:	03.27.2018
 "
 " To use it, copy it to ~/.vimrc when using unix-likes system
 
@@ -17,11 +17,14 @@ set nocompatible
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
-" set tabstop width, it's auto-apply to current files
-set tabstop=2
-" set global shiftwidth softtabstop when edit source files
-set shiftwidth=2
-set softtabstop=0 expandtab
+
+" Tabstop width, it's auto-apply to current files
+set tabstop=4
+" Global shiftwidth softtabstop when edit source files
+set shiftwidth=4
+"set softtabstop=2 expandtab
+set softtabstop=4 
+
 
 set viminfo='50,<1000,s1000
 
