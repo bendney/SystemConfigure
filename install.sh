@@ -27,5 +27,8 @@ resources/backgounds.sh
 # install themes
 #resources/themes.sh
 
-#add the database schema, user and groups
+# install alacritty
+resources/alacritty.sh
+
+#finish the installation
 resources/finish.sh
