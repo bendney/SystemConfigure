@@ -1,4 +1,4 @@
-Archlinux configuration
+GNU/Linux system configuration scripts
 ===========================================================
 
-Archlinux configuration for personal users
+GNU/Linux system configuration for auto-installation project
