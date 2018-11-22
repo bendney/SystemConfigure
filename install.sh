@@ -22,7 +22,7 @@ resources/bash.sh
 resources/fonts.sh
 
 # install backgrounds
-resources/backgounds.sh
+resources/backgrounds.sh
 
 # install themes
 #resources/themes.sh
